@@ -1,0 +1,14 @@
+{
+  "name": "ember-react-mfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "admin": "pnpm --filter admin-app",
+    "app": "pnpm --filter web-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
