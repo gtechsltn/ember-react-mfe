@@ -9,7 +9,7 @@ export const mountApp = ({ element, options }) => {
   }
   import(`${baseURL}${manifest["index.html"].file}`).then(() => {
     const adminMfe = document.createElement("admin-mfe");
-    adminMfe.setAttribute(options, JSON.stringify(rest));
+    adminMfe.setAttribute("options", JSON.stringify(rest));
     element.appendChild(adminMfe);
   });
 };
